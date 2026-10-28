@@ -1,0 +1,15 @@
+
+int fun () {
+    int x = 10;
+    int y = 11;
+
+    boolean b = x == 10 && y == 11;
+
+    if (b) {
+        x = y;
+    }
+}
+
+void main () {
+    int i = fun();
+}

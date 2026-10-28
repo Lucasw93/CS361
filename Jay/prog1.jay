@@ -1,0 +1,26 @@
+
+// Ignored
+
+// ident
+xyz abc1 True False
+
+// literals
+1 123 12345
+true false
+
+// operators
+&& ||
+< > <= >= !=
+
+// separators
+( ) . ;
+
+// keywords
+if while main
+
+// Invalid
+1abc _abc
+& # | @
+"abc"
+
+
