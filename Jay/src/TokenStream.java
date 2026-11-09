@@ -46,7 +46,7 @@ public class TokenStream {
 			// there are two comment lines in a row.
 			nextChar = readChar();
 			if (nextChar == '/') { // If / is followed by another /
-				while (!isEndOfLine(nextChar))
+				while (!(isEof || isEndOfLine(nextChar)))
 					nextChar = readChar();
 
 				// remove starting whitespace from the following line
@@ -223,7 +223,7 @@ public class TokenStream {
 			|| c == '{' 
 			|| c == '}'
 			|| c == ';' 
-			|| c == '.'; 
+			|| c == ',';
 	}
 
 	private boolean isOperator(char c) {
