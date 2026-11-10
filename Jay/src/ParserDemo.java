@@ -1,10 +1,11 @@
+import java.util.Arrays;
+
 public class ParserDemo {
 
 	public static void main(String[] args) {
-
-		// TO COMPLETE
-		// Change the path!
-		TokenStream tStream = new TokenStream("C:\\\\Users\\\\cscharff\\\\eclipse-workspace\\\\ScannerSolution\\\\src\\\\prog1.jay");
+		TokenStream tStream = new TokenStream(Arrays.stream(args).findFirst()
+				.map(prog -> "Jay/test/" + prog)
+				.orElse("Jay/test/parser-demo.jay"));
 
 		ConcreteSyntax cSyntax = new ConcreteSyntax(tStream);
 		Program p = cSyntax.program();
