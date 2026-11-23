@@ -2,12 +2,12 @@
 
 Developed by Lucas Wheeler, and Alexander Quintero
 
-###Scanner
+### Scanner
 Token.java
 TokenStream.java
 ScannerDemo.java
 
-###Parser
+### Parser
 Program.java
 ConcreteSyntax.java
 ParserDemo.java
@@ -19,6 +19,6 @@ Run ScannerDemo.java and ParserDemo.java to test
 java ScannerDemo
 java ParserDemo
 
-tested using prog1.jay and parser-demo.jay respectively
+Tested using prog1.jay and parser-demo.jay respectively
 
 
