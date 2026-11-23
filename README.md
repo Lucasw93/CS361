@@ -12,8 +12,8 @@ Program.java
 ConcreteSyntax.java
 ParserDemo.java
 
-### Installation
-Download the provided folder, and compile all the java files within the src directory.
+### Installation and Testing
+Download the provided "Jay" folder, and compile all the java files within the src directory.
 javac *.java
 Run ScannerDemo.java and ParserDemo.java to test
 java ScannerDemo
